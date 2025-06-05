@@ -4,6 +4,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Run the app with: streamlit run "F:/Complete ML/All_Projects/MLProject3/app.py"
+# website : https://ashis07.streamlit.app/
 
 # Set page configuration
 st.set_page_config(page_title="Health Assistant",
@@ -81,12 +82,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
-# Load models
-# diabetes_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\diabetes_model.sav', 'rb'))
-# heart_disease_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\heart_disease_model.sav', 'rb'))
-# parkinsons_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\parkinsons_model.sav', 'rb'))
-# breast_cancer_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\breast_cancer.sav', 'rb'))
 
 heart_disease_model = pickle.load(open('model/heart_disease_model.sav', 'rb'))
 parkinsons_model = pickle.load(open('model/parkinsons_model.sav', 'rb'))
