@@ -83,10 +83,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load models
-diabetes_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\heart_disease_model.sav', 'rb'))
-parkinsons_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\parkinsons_model.sav', 'rb'))
-breast_cancer_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\breast_cancer.sav', 'rb'))
+# diabetes_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\diabetes_model.sav', 'rb'))
+# heart_disease_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\heart_disease_model.sav', 'rb'))
+# parkinsons_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\parkinsons_model.sav', 'rb'))
+# breast_cancer_model = pickle.load(open(r'F:\Complete ML\All_Projects\MLProject3\model\breast_cancer.sav', 'rb'))
+
+heart_disease_model = pickle.load(open('model/heart_disease_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('model/parkinsons_model.sav', 'rb'))
+breast_cancer_model = pickle.load(open('model/breast_cancer.sav', 'rb'))
+diabetes_model = pickle.load(open('model/diabetes_model.sav', 'rb'))
 
 with st.sidebar:
     selected = option_menu(
